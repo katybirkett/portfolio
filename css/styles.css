@@ -1,3 +1,15 @@
+.big-intro {
+  background-color: #de7119;
+  background-image: -webkit-linear-gradient(65deg, #dee3e2 50%, #de7119 50%);
+  background-image:  -webkit-gradient(65deg, #dee3e2 50%, #de7119 50%);
+    background-image:  -o-linear-gradient(65deg, #dee3e2 50%, #de7119 50%);
+    background-image:  -moz-linear-gradient(65deg, #dee3e2 50%, #de7119 50%);
+    background-image:  -ms-linear-gradient(65deg, #dee3e2 50%, #de7119 50%);
+  min-height: 1000px;
+  font-family: 'arial';
+}
+
+
 body {
   text-align: center;
 
@@ -23,9 +35,9 @@ body {
   border-radius: 75%;
 
 }
-.head-banner {
+/* .head-banner {
 
-}
+} */
 
 
 .navbar {
