@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+
+}
+.white-section {
+  background-color: #dee3e2;
+  color: #116979;
+}
+.colour-section{
+  background-color: #de7119;
+  color: #dee3e2;
+}
+.container-fluid{
+  padding: 7% 15%;
+
+}
+
+.profile-picture{
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 75%;
+
+}
+.head-banner {
+
+}
+
+
+.navbar {
+   padding-left: 0;
+   padding-right: 0;
+   padding-bottom: 4.5rem;
+
+ }
+
+ .nav-item {
+     padding: 0 18px
+ }
+ .nav-link {
+   font-size: 1.2rem
+ }
