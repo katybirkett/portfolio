@@ -6,7 +6,8 @@ body {
 
 h2,
 h3 {
-  padding-bottom: 5%;
+  font-weight: 900;
+  padding-bottom: 2rem;
 }
 
 /* containers and sections */
@@ -21,7 +22,7 @@ h3 {
 
 .white-section {
   background-color: #dee3e2;
-  color: #116979;
+  color: #222222;
 }
 
 /* diagonal background */
@@ -92,16 +93,17 @@ h3 {
 /* about section */
 .about-section .container-fluid {
   padding-top: 0;
+  margin-top: -300px;
 }
 
 /* portfolio */
 
 .left-box {
-  border-right: 3px solid #116979;
+  border-right: 3px solid #222222;
 }
 
 .portfolio-image {
-  border: 3px solid #116979;
+  border: 3px solid #222222;
   border-radius: 25%;
 }
 
@@ -122,7 +124,7 @@ h3 {
 @media (max-width: 1028px) {
   .name {
     margin: 2.5rem;
-    color: #116979;
+    color: #222222;
   }
   .title {
     margin: auto;
@@ -136,7 +138,7 @@ h3 {
   }
   .media {
     visibility: visible;
-    color: #116979;
+    color: #222222;
     width: 30%;
     border: 1px solid;
   }
