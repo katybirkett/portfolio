@@ -59,6 +59,10 @@ h3 {
 
   .nav-item:last-of-type {
     padding-right: 0;
+    @media (max-width: 1028px){
+      padding: inherit;
+    }
+
   }
 
   .navbar-dark .navbar-nav .nav-link {
