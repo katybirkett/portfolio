@@ -134,7 +134,7 @@ h3 {
 
 /* portfolio */
 .portfolio {
-  .left-box {
+  .portfolio-description {
     border-right: 3px solid $darkColour;
     @media (max-width: 1028px){
       border: none;
@@ -158,8 +158,15 @@ h3 {
 
   @media (max-width: 1028px) {
     .portfolio-item {
+      display: table;
       margin-top: 5%;
       margin-bottom: 5%;
+      .portfolio-description {
+        display: table-header-group;
+      }
+      .portfolio-entry{
+        display: table-footer-group;
+      }
     }
   }
 }

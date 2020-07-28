@@ -133,12 +133,12 @@ h3 {
 }
 
 /* portfolio */
-.portfolio .left-box {
+.portfolio .portfolio-description {
   border-right: 3px solid #222222;
 }
 
 @media (max-width: 1028px) {
-  .portfolio .left-box {
+  .portfolio .portfolio-description {
     border: none;
   }
 }
@@ -163,8 +163,15 @@ h3 {
 
 @media (max-width: 1028px) {
   .portfolio .portfolio-item {
+    display: table;
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+  .portfolio .portfolio-item .portfolio-description {
+    display: table-header-group;
+  }
+  .portfolio .portfolio-item .portfolio-entry {
+    display: table-footer-group;
   }
 }
 
