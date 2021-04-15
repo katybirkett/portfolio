@@ -17,6 +17,7 @@ h3 {
   font-weight: 900;
   padding-bottom: 2rem;
 }
+
 /* containers and sections */
 
 .container-fluid {
@@ -32,15 +33,16 @@ h3 {
   background-color: $lightColour;
   color: $darkColour;
 }
+
 /* diagonal background */
 
 .big-intro {
   background-color: #de7119;
-  background-image: -webkit-linear-gradient(65deg, $lightColour 50%,  $brightColour 50%);
-  background-image: -webkit-gradient(65deg, $lightColour 50%,  $brightColour 50%);
-  background-image: -o-linear-gradient(65deg, $lightColour 50%,  $brightColour 50%);
-  background-image: -moz-linear-gradient(65deg, $lightColour 50%,  $brightColour 50%);
-  background-image: -ms-linear-gradient(65deg, $lightColour 50%,  $brightColour 50%);
+  background-image: -webkit-linear-gradient(65deg, $lightColour 50%, $brightColour 50%);
+  background-image: -webkit-gradient(65deg, $lightColour 50%, $brightColour 50%);
+  background-image: -o-linear-gradient(65deg, $lightColour 50%, $brightColour 50%);
+  background-image: -moz-linear-gradient(65deg, $lightColour 50%, $brightColour 50%);
+  background-image: -ms-linear-gradient(65deg, $lightColour 50%, $brightColour 50%);
   min-height: 1000px;
 
   /* navbar */
@@ -60,7 +62,8 @@ h3 {
 
   .nav-item:last-of-type {
     padding-right: 0;
-    @media (max-width: 1028px){
+
+    @media (max-width: 1028px) {
       padding: inherit;
     }
 
@@ -74,6 +77,7 @@ h3 {
   .navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255, 1);
   }
+
   /* intro */
   .name {
     color: $lightColour;
@@ -84,15 +88,15 @@ h3 {
     text-transform: uppercase;
     text-align: right;
 
-    @media (max-width: 1028px){
+    @media (max-width: 1028px) {
 
-          margin: 2.5rem;
-          color: $darkColour;
-          text-align: center;
+      margin: 2.5rem;
+      color: $darkColour;
+      text-align: center;
 
 
 
-      }
+    }
   }
 
   .profile-picture {
@@ -102,9 +106,12 @@ h3 {
     height: auto;
     border-radius: 75%;
     float: left;
-    @media (max-width: 1028px){
+
+    @media (max-width: 1028px) {
       float: none;
-    };
+    }
+
+    ;
 
   }
 
@@ -113,7 +120,8 @@ h3 {
     font-weight: 300;
     margin-top: 2.5rem;
     text-align: right;
-    @media (max-width: 1028px){
+
+    @media (max-width: 1028px) {
       margin: auto;
       color: $darkColour;
       text-align: center;
@@ -121,11 +129,13 @@ h3 {
   }
 
 }
+
 /* about section */
-.about-section{
+.about-section {
   .container-fluid {
     padding-top: 0;
     margin-top: -300px;
+
     @media (max-width: 1028px) {
       margin-top: -150px;
     }
@@ -138,22 +148,25 @@ h3 {
     margin-top: 5%;
     margin-bottom: 5%;
   }
+
   .left-box {
     border-right: 3px solid $darkColour;
 
-    @media (max-width: 1028px){
+    @media (max-width: 1028px) {
       border: none;
     }
   }
 
   .portfolio-image {
+    width: 400px;
     border: 3px solid $darkColour;
     border-radius: 25%;
   }
 
   .media {
     visibility: hidden;
-    @media (max-width: 1028px){
+
+    @media (max-width: 1028px) {
       visibility: visible;
       color: $darkColour;
       width: 30%;
@@ -166,10 +179,12 @@ h3 {
       display: table;
       margin-top: 5%;
       margin-bottom: 5%;
+
       .portfolio-description {
         display: table-header-group;
       }
-      .portfolio-entry{
+
+      .portfolio-entry {
         display: table-footer-group;
       }
     }
